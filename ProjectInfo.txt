@@ -1,0 +1,10 @@
+Gerekli kutuphaneleri indiriyoruz
+Core'da artik kutuphaneler farkli teknolojiler,baska platformlarda,baska serverlarda(sql haric) kullanilabilmesi adin ayristirildi
+EntityFrameworkCore=>.NetCore'da calistigimiz icin indiriyoruz
+
+EntityFrameworkCore.SqlServer=>Calisacagimiz veritabani teknolojisini(sql) belirtiyoruz.
+
+EntityFrameworkCore.Tools=>Terminalden migration kodlari yazabilmek icin(@migrate)yoksa console emrimizi tanimaz
+
+EntityFrameworkCore.Proxies=>LazyLoading kodlarinin calisabilmesi icin indiriyorum
+LazyLoading=>Virtual keywordu ile iliskisi olan ilgili classin gerektiginde tetiklenmesini sagliyo.(Virtual'in gorevini yapmasini sagliyo yani)

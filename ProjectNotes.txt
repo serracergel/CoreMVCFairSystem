@@ -1,0 +1,20 @@
+
+Fuarýn elektrik sistemi , altyapýsý burada iclerinde gerceklesebilecek sorunlarla birlikte takip edilmeli ve müsteriye ona göre bir süre verilmeli...Mesela normal þartlarda bir fuar 3 haftada hazýrlanabilecekse ama elektrik sisteminde vs... sorun cýkarsa  2 hafta daha uzar...Ýlgili þirketin basýna bela olmamasý adýna bir encapsulation yaparak müsteriye fazla zaman söylemeniz gerekir.
+
+Controller yapilicak duzenlemeler
+
+lokasyon ozelliklerinde lokasyon ucreti disinda olucak estra ozellikler ve lokasyon ucreti dahilinde olan ozellikler olsa(ozellikler classinda)
+
+
+Bir de müþterinin bu fuarýn kac günde hazýrlanacagý istegini almanýz lazým...Eger sizin default zamanýnýzdan daha kýsa bir zamanda bu Fuar hazýrlanmak isteniyorsa daha fazla fiyat teklifi vermelisiniz...
+
+deadline'a kadar yetiþtirilemedigi durumda ilgili þirkete tazminatla birlikte para iadesi yapmak zorunda...
+
+Ozel servis yemek icin fiyat duzenlemesi yap
+
+otopark eger vale ise fiyat duzenlemesi yap
+
+SÝparis classi olustur
+
+Ekstra ucrete tabi olucaklarini   
+

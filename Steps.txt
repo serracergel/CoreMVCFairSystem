@@ -1,0 +1,5 @@
+DAL-Confgiurations
+1 to 1 iliski ayarlamasi
+decimal olanlari money
+junction ID ayarlamasi
+Migration kodlariyla veritabani teknolojisine entegre(SQL)
