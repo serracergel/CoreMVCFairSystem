@@ -7,8 +7,7 @@
         public string FairName { get; set; }
         public string Description { get; set; }
         public decimal? Price { get; set; }//Katilim ucreti
-
-        public string ElectricitySystem { get; set; }//bunu enum yapip ariza durumunda veya degil eklemek,(eger gercek bir proje olsaydi orn o elektrik sisteminin iviri ziviri yok hava basıncı akimi vs takip edilsin orn basinc prop'una encapsulation ile eger 3'un altindaysa elektrik sistemi statusunu arizaya cek uyari gonder vs yapardik=>Hocaya sor )
+        
         public DateTime StartDate { get; set; }//Fuarin baslangic tarihi
         public DateTime EndDate { get; set; }//bitis tarihi
         public int CategoryID { get; set; }
