@@ -9,7 +9,7 @@ namespace CoreMVCFairSystem.Models.Configurations
         public override void Configure(EntityTypeBuilder<FairsAttribute> builder)
         {
             base.Configure(builder);
-            builder.ToTable("SiparisDetaylari");
+            //builder.ToTable("SiparisDetaylari");
             builder.Ignore(x => x.ID);
             builder.HasKey(x => new
             {

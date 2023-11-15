@@ -1,5 +1,10 @@
+Dilara Gurel'e ozel notlarr
 DAL-Confgiurations
 1 to 1 iliski ayarlamasi
 decimal olanlari money
 junction ID ayarlamasi
 Migration kodlariyla veritabani teknolojisine entegre(SQL)
+Acaba lokasyona property olarak mi eklesek bulundugu ulke,sehir,ilce diye
+Bir de Locationda LeaseCost icin ve Order'da TotalPrice icin de configurationda tipi money'e cevirmemiz lazim
+FairLocation'da siparis detaylari var yorum satirina aldim o kismi sorýyým diye anlayamadim 
+SpecLocationAttribute decimal var 

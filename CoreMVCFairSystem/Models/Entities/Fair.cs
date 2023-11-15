@@ -7,7 +7,6 @@
         public string FairName { get; set; }
         public string Description { get; set; }
         public decimal? Price { get; set; }//Katilim ucreti
-        
         public DateTime StartDate { get; set; }//Fuarin baslangic tarihi
         public DateTime EndDate { get; set; }//bitis tarihi
         public int CategoryID { get; set; }
