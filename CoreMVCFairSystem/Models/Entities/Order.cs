@@ -12,9 +12,9 @@ namespace CoreMVCFairSystem.Models.Entities
         public DateTime Deadline { get; set; }
         public decimal TotalPrice { get; set; }
         public PaymentStatus Payment { get; set; }
-        public int CustomerID { get; set; }
+        public int AppUserID { get; set; }
         //Relational Properties
-        public virtual Customer Customer { get; set; }
+        public virtual AppUser AppUser { get; set; }
         public virtual ICollection<Fair> Fairs { get; set; }
     }
 }

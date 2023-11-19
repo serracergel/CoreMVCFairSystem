@@ -1,15 +1,9 @@
 ﻿using CoreMVCFairSystem.Models.Enums;
-using CoreMVCFairSystem.Models.Interfaces;
 
-namespace CoreMVCFairSystem.Models.Entities
+namespace CoreMVCFairSystem.Models.Interfaces
 {
-    public abstract class BaseEntity:IEntity
+    public interface IEntity
     {
-        public BaseEntity()
-        {
-            CreatedDate = DateTime.UtcNow;
-            Status = DataStatus.Inserted;
-        }
         public int ID { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime? ModifiedDate { get; set; }

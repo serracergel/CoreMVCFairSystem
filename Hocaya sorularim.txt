@@ -1,1 +1,2 @@
-
+Identity diyelim ki hicbir classi duzenlemek istemedigim icin acmadim o zmaan bizim actigimiz classlarla nasil baglardik
+middleware 8. satir hocaya sor neden appuserrole'u ekle demiyoruz o kodun aciklamasi ne 

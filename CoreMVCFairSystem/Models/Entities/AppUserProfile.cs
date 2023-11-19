@@ -1,13 +1,13 @@
 ﻿namespace CoreMVCFairSystem.Models.Entities
 {
-    public class Customer:BaseEntity
+    public class AppUserProfile:BaseEntity
     {
-        //1 order 1 Customer
-        //1 customer n order
+        //1 profile 1 user
+        //1 user    1 profile=>1 to 1 relation
         public string CompanyName { get; set; }
         public string ContactNo { get; set; }
         public string Email { get; set; }
         //Relational Properties
-        public virtual ICollection<Order> Orders { get; set; }
+        public virtual AppUser User { get; set; }
     }
 }

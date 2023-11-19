@@ -1,11 +1,15 @@
 ﻿using CoreMVCFairSystem.Models.Enums;
 using CoreMVCFairSystem.Models.Interfaces;
+using Microsoft.AspNetCore.Identity;
 
 namespace CoreMVCFairSystem.Models.Entities
 {
-    public abstract class BaseEntity:IEntity
+    //1 role n user
+    //1 user n role
+    public class AppRole : IdentityRole<int>, IEntity
     {
-        public BaseEntity()
+        
+        public AppRole()
         {
             CreatedDate = DateTime.UtcNow;
             Status = DataStatus.Inserted;
@@ -15,5 +19,8 @@ namespace CoreMVCFairSystem.Models.Entities
         public DateTime? ModifiedDate { get; set; }
         public DateTime? DeletedDate { get; set; }
         public DataStatus Status { get; set; }
+
+        //Relational Properties
+        public ICollection<AppUserRole> UserRoles { get; set; }
     }
 }

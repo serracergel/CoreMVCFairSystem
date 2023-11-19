@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace CoreMVCFairSystem.Models.Configurations
 {
-    public class CustomerConfiguration:BaseConfiguration<Customer>
+    public class AppUserProfileConfiguration:BaseConfiguration<AppUserProfile>
     {
-        public override void Configure(EntityTypeBuilder<Customer> builder)
+        public override void Configure(EntityTypeBuilder<AppUserProfile> builder)
         {
             base.Configure(builder);
         }
